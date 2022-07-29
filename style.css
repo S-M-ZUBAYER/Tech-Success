@@ -1,4 +1,7 @@
 /* Make responsive of successfull students , courses and Regiter part  */
+.Explore {
+    background-color: rgb(242, 246, 247);
+}
 
 @media (max-width: 991.99px) {
     .courses_pic {
