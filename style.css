@@ -1,9 +1,11 @@
+/* Make responsive of successfull students , courses and Regiter part  */
+
 @media (max-width: 991.99px) {
     .courses_pic {
         width: 100%;
     }
 
-    .Register_sec {
+    .Register_part {
         flex-wrap: wrap;
         text-align: center;
     }
@@ -12,22 +14,32 @@
         margin-bottom: 20px;
     }
 
-
-
     .Successfull_std_pic {
         width: 100%;
     }
 
 }
 
+/* @media (max-width: 991.99px) and (min-width: 768px) {
+    .Register_part {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+} */
+
+/* Make responsive of successfull students part  */
 
 @media (max-width: 767.99px) {
 
+    .Std_meet,
     .Successfull_std,
     .Successfull_std_name {
         text-align: center;
     }
 }
+
+/* Make responsive of Explore part  */
 
 @media (min-width: 768px) {
     .working_pic {

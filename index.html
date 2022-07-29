@@ -5,9 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tech Success</title>
+
+    <!-- Bootstrap link added  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+
+    <!-- style.css link added to customise CSS  -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,7 +24,7 @@
             <div class="container mt-3 mb-5">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid ">
-                        <a class="navbar-brand fs-1 text-body text-opacity-75 fw-bold" href="#">Tech
+                        <a class="navbar-brand fs-1 text-success text-opacity-75 fw-bold" href="#">Tech
                             Success</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -30,32 +34,30 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link fs-5 px-3" href="#">Home</a>
+                                    <a class="nav-link fs-5 px-3" id="Home" href="#Home">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fs-5 px-3" href="#">Courses</a>
+                                    <a class="nav-link fs-5 px-3" href="#courses">Courses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fs-5 px-3">Deals</a>
+                                    <a class="nav-link fs-5 px-3" href="#Explore">Deals</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fs-5 px-3" href="#">Success</a>
+                                    <a class="nav-link fs-5 px-3" href="#Success">Success</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fs-5 px-3" href="#">About</a>
+                                    <a class="nav-link fs-5 px-3" href="#Contact">Contact Us</a>
                                 </li>
-                                <li class="nav-item fs-5 px-3">
-                                    <a class="nav-link">Register</a>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 px-3" href="#Register">Register</a>
                                 </li>
                             </ul>
                             <button type="button"
                                 class="btn btn-outline-info border border-2 border-info fw-bold px-4 py-2 fs-5">Register</button>
-
                         </div>
                     </div>
                 </nav>
             </div>
-
         </section>
         <!------------------------------------------
                                               Navbar section Ending point  
@@ -79,9 +81,10 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1 class="fs-1 fw-bold">First slide label</h1>
-                                <p class="fs-5">Some representative placeholder content for the first slide.</p>
+                            <div class="carousel-caption d-none d-md-block text-primary">
+                                <h1 class="fs-1 fw-bold">Find Your Life in <br> Tech Success</h1>
+                                <p class="fs-5 fw-semibold">The object of education is to prepare the young to educate
+                                    themselves throughout their lives.</p>
                                 <div class="text-center mb-5">
                                     <button type="button"
                                         class="btn btn-info text-white fs-5 fw-semibold px-5 py-2 mb-5">Get
@@ -91,9 +94,10 @@
                         </div>
                         <div class="carousel-item">
                             <img src="./images/cover/cover-4.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1 class="fs-1 fw-bold">First slide label</h1>
-                                <p class="fs-5">Some representative placeholder content for the first slide.</p>
+                            <div class="carousel-caption d-none d-md-block text-primary">
+                                <h1 class="fs-1 fw-bold">Get Started Digital <br> Learning</h1>
+                                <p class="fs-5 fw-semibold">Education is learning what you didn't even know you didn't
+                                    know.</p>
                                 <div class="text-center mb-5 ">
                                     <button type="button"
                                         class="btn btn-info text-white fs-5 fw-semibold px-5 py-2 mb-5">Get
@@ -103,9 +107,10 @@
                         </div>
                         <div class="carousel-item">
                             <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1 class="fs-1 fw-bold">First slide label</h1>
-                                <p class="fs-5">Some representative placeholder content for the first slide.</p>
+                            <div class="carousel-caption d-none d-md-block text-primary">
+                                <h1 class="fs-1 fw-bold">Shine Your Life With <br> Tech Success</h1>
+                                <p class="fs-5 fw-semibold">I had to gain experience as I did not have a technical
+                                    education.</p>
                                 <div class="text-center mb-5 ">
                                     <button type="button"
                                         class="btn btn-info text-white fs-5 fw-semibold px-5 py-2 mb-5">Get
@@ -140,16 +145,16 @@
                                               Courses section starting point  
                                                                      ------------------------------------------------->
         <section class="courses_sec">
-            <div class="container my-5">
+            <div class="container my-5" id="courses">
                 <div class="heading text-center mb-5">
                     <h1 class="fs-1 fw-bold">
                         Discover Our Popular
                         <br> Course
                     </h1>
                     <p class=" fs-5 text-muted">
-                        It is a long established fact that a reader will be distracted by the readable
+                        Here are the most popular computer courses that are in high demand in all over the word.
                         <br>
-                        content of a page when looking at its layout.
+                        Use your time in proper way.
                     </p>
                 </div>
                 <div class="container">
@@ -165,11 +170,11 @@
                                             Fundamental Of UI/UX Design
                                         </h3>
                                         <p class="text-muted">
-                                            Some quick example text to build on the card title
-                                            and make up the bulk of the card.
+                                            Work directly with a team of experts and mentors to help jumpstart your
+                                            UI/UX career.
                                         </p>
                                         <h5 class="text-info fw-bold">
-                                            Price : 20$
+                                            Price : 210$
                                         </h5>
                                     </div>
                                 </div>
@@ -186,11 +191,11 @@
                                             Javascript Basic to advanced
                                         </h3>
                                         <p class="text-muted">
-                                            Some quick example text to build on the card title
-                                            and make up the bulk of the card.
+                                            No coding experience is necessary to take this course! I take you from
+                                            beginner to expert!
                                         </p>
                                         <h5 class="text-info fw-bold">
-                                            Price : 20$
+                                            Price : 190$
                                         </h5>
                                     </div>
                                 </div>
@@ -207,17 +212,16 @@
                                             Fullstack Web Development
                                         </h3>
                                         <p class="text-muted">
-                                            Some quick example text to build on the card title
-                                            and make up the bulk of the card.
+                                            Learn Front and Back End Coding for Website and App Development. Enroll Now!
                                         </p>
                                         <h5 class="text-info fw-bold">
-                                            Price : 20$
+                                            Price : 240$
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 d-sm-none d-md-none d-lg-block">
+                        <div class="col-lg-6 col-md-12 d-none d-sm-none d-md-none d-lg-block">
                             <div class="border rounded-3">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-4">
@@ -228,17 +232,17 @@
                                             Digital Marketing
                                         </h3>
                                         <p class="text-muted">
-                                            Some quick example text to build on the card title
-                                            and make up the bulk of the card.
+                                            Become A Digital Marketing Professional With A Certificate In Digital
+                                            Marketing.
                                         </p>
                                         <h5 class="text-info fw-bold">
-                                            Price : 20$
+                                            Price : 180$
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 d-sm-none d-md-none d-lg-block">
+                        <div class="col-lg-6 col-md-12 d-none d-sm-none d-md-none d-lg-block">
                             <div class="border rounded-3">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-4">
@@ -249,17 +253,17 @@
                                             Photography Basic Rules
                                         </h3>
                                         <p class="text-muted">
-                                            Some quick example text to build on the card title
-                                            and make up the bulk of the card.
+                                            Learning photography for the beginner can be overwhelming at first, but this
+                                            exciting and easy-to-grasp.
                                         </p>
                                         <h5 class="text-info fw-bold">
-                                            Price : 20$
+                                            Price : 230$
                                         </h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 d-sm-none d-md-none d-lg-block">
+                        <div class="col-lg-6 col-md-12 d-none d-sm-none d-md-none d-lg-block">
                             <div class="border rounded-3">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-4">
@@ -270,11 +274,11 @@
                                             Motion Graphics
                                         </h3>
                                         <p class="text-muted">
-                                            Some quick example text to build on the card title
-                                            and make up the bulk of the card.
+                                            Motion graphics takes a static graphic design — an advertisement or
+                                            infographic, perhaps — and animates the visual elements.
                                         </p>
                                         <h5 class="text-info fw-bold">
-                                            Price : 20$
+                                            Price : 220$
                                         </h5>
                                     </div>
                                 </div>
@@ -282,7 +286,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center my-5 d-sm-none d-md-none d-lg-block ">
+                <div class="text-center my-5 d-none d-sm-none d-md-none d-lg-block ">
                     <button type="button" class="btn btn-info text-white fs-5 fw-bold px-5 py-2 mb-5">See More
                         Courses</button>
                 </div>
@@ -300,7 +304,7 @@
                                               Explore section starting point  
                                                                      ------------------------------------------------->
         <section class="Explore_sec">
-            <div class="container my-5">
+            <div class="container my-5 " id="Explore">
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-5">
@@ -313,38 +317,37 @@
                                     <br>Institute
                                 </h1>
                                 <p class=" fs-5 text-muted">
-                                    There are many variations of passages of Lorem Ipsum available, but the
-                                    majority have suffered alteration in some form, by injected humour, or
-                                    randomised words which don't look even slightly believable. If you are going
-                                    to use a passage of Lorem Ipsum, you need to be sure.
+                                    Explore Education was conceptualized in 2022 keeping in mind the growing need of
+                                    specialists and professionals in every industry. As one of the leading education and
+                                    training institute in BD. we are headquartered in Bangladesh.
                                     <br>
                                     <br>
-
-                                    Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                    generators on the Internet tend to repeat predefined.
+                                    Tech Success is solely responsible for regulating the technical, vocational
+                                    education, training
+                                    (TVET) sector, and to quality assure TVET qualifications in Dubai.
                                 </p>
                                 <div>
                                     <div class="row">
                                         <div class="container">
                                             <div class="row my-3">
-                                                <div class="col-sm-6 col-md-4">
-                                                    <h1 class="fs-1 fw-bold">
+                                                <div class="col-xs-6 col-sm-6 col-md-4">
+                                                    <h1 class="fs-2 fw-bold">
                                                         3.2K+
                                                     </h1>
                                                     <p class=" fs-5 fw-semibold text-muted">
                                                         Online Course
                                                     </p>
                                                 </div>
-                                                <div class="col-sm-6 col-md-4">
-                                                    <h1 class="fs-1 fw-bold">
+                                                <div class="col-xs-6 col-sm-6 col-md-4">
+                                                    <h1 class="fs-2 fw-bold">
                                                         600+
                                                     </h1>
                                                     <p class=" fs-5 fw-semibold text-muted">
                                                         Expert member
                                                     </p>
                                                 </div>
-                                                <div class="col-sm-6 col-md-4">
-                                                    <h1 class="fs-1 fw-bold">
+                                                <div class="col-xs-6 col-sm-6 col-md-4">
+                                                    <h1 class="fs-2 fw-bold">
                                                         1k+
                                                     </h1>
                                                     <p class=" fs-5 fw-semibold text-muted">
@@ -375,23 +378,23 @@
         <!------------------------------------------
                                               Register section Ending point  
                                                                      ------------------------------------------------->
-        <section class="register_sec">
+        <section class="register_sec" id="Register">
             <div class="container my-5 border rounded-3 bg-info">
-                <div class="d-flex justify-content-around my-5 Register_sec">
+                <div class="d-flex justify-content-around my-5 Register_part">
                     <div class="my-5 text-white">
                         <h3 class="fw-bold fs-1">
                             Ready to join?
                         </h3>
                         <p class="">
-                            It is a long established fact that a reader will be distracted by the
+                            Don't waste your time. Take our valuable courses and enjoy your life.
                             <br>
-                            readable content of a page when looking at its layout.
+                            For more update regiter now..
                         </p>
                     </div>
                     <div class="align-self-center">
                         <!-- Button trigger modal -->
                         <button type="button"
-                            class="btn btn-outline-warning bg-white border border-2 border-info fw-bold px-4 py-2 fs-5"
+                            class="btn btn-outline-info bg-white border border-2 border-info fw-bold px-4 py-2 fs-5"
                             data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             Register Now
                         </button>
@@ -437,7 +440,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             </div>
         </section>
@@ -451,21 +453,22 @@
         <!------------------------------------------
                                               Successfull students section Ending point  
                                                                      ------------------------------------------------->
-        <section class="success_sec">
-            <div class="container my-5">
-                <div>
+        <section class="success_sec" id="Success">
+            <div class="container my-5 Success">
+                <div class="Std_meet">
                     <h1 class="fs-1 fw-bold Successfull_std">
                         Meet Our Successfull
                         <br>Students
                     </h1>
                     <p class=" fs-5 text-muted">
-                        It is a long established fact that a reader will be distracted by the
-                        <br> readable content of a page when looking at its layout.
+                        Successful students know how to focus on their studies when it matters <br> while also taking
+                        breaks
+                        when they need them.
                     </p>
                 </div>
                 <div class="my-5">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12 std d-lg-block d-sm-none d-md-block">
+                        <div class="col-lg-3 col-md-6 col-sm-12 std d-lg-block d-none d-sm-none d-md-block">
                             <div class=" border border-2 rounded-3">
                                 <img class="img-fluid Successfull_std_pic" src="./images/student/student-1.png" alt="">
                                 <div class="p-3 Successfull_std">
@@ -540,28 +543,48 @@
                         Some Students Feedback
                     </h1>
                     <p class=" fs-5 text-muted">
-                        It is a long established fact that a reader will be distracted by the readable
-                        <br>
-                        content of a page when looking at its layout.
+                        Examples of specific feedback to students Identifying and describing possible learning
+                        techniques.
+                        <br> The use of an incredible amount of nouns and expressive adjectives.
                     </p>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12 border border-2 rounded-3 me-1 p-3 position-relative mb-3">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between pb-3">
                             <img class="" src="./images/comma.png" alt="">
                             <div class="">
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-regular fa-star"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                </svg>
                             </div>
                         </div>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but
-                            the majority have suffered alteration in some form, by injected
-                            humour, or randomised words which don't look even slightly
-                            believable. If you are going to use a passage of Lorem.
+                            For students to benefit from feedback about their work, the comments must be timely and
+                            specific. Professor James Pennebaker (University of Texas at Austin) states, “When people
+                            are trying to learn new skills, they must get some information.
                         </p>
                         <div class="d-flex align-items-center">
                             <img class="" src="./images/student/student-5.png" alt="">
@@ -574,40 +597,74 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="position-absolute top-50 start-0 translate-middle">
-                            <p class="border border-3 rounded-circle fs-3 border-info fw-bold px-1">
-                                < </p>
+                        <div
+                            class="position-absolute top-50 start-0 translate-middle d-none d-sm-none d-md-none d-lg-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-caret-left-square bg-info bg-opacity-25" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                <path
+                                    d="M10.205 12.456A.5.5 0 0 0 10.5 12V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4a.5.5 0 0 0 .537.082z" />
+                            </svg>
                         </div>
-
-
                     </div>
-                    <div class="col border border-2 rounded-3 ms-1 p-3 mb-3">
-                        <div class="d-flex justify-content-between">
+                    <div class="col border border-2 rounded-3 ms-1 p-3 mb-3 position-relative">
+                        <div class="d-flex justify-content-between pb-3">
                             <img class="piccccc" src="./images/comma.png" alt="">
                             <div class="">
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-solid fa-star text-warning"></i>
-                                <i class="fa-regular fa-star"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-star text-warning" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                </svg>
                             </div>
                         </div>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but
-                            the majority have suffered alteration in some form, by injected
-                            humour, or randomised words which don't look even slightly
-                            believable. If you are going to use a passage of Lorem.
+                            However, what teachers and students appreciate most about computer-based feedback is that it
+                            is timely. With immediate feedback, two things take place. Students know exactly what to
+                            improve, and teachers know what next steps to help with that academic improvement.
                         </p>
                         <div class="d-flex align-items-center mt-4">
-                            <img class="piccccc" src="./images/student/student-5.png" alt="">
+                            <img class="" src="./images/student/student-6.png" alt="">
                             <div class="ps-4">
                                 <h5 class="fw-bold pt-3">
-                                    Awlad Hossain
+                                    Shanta Akter
                                 </h5>
                                 <p>
-                                    UI Designer
+                                    Graphic Designer
                                 </p>
                             </div>
+                        </div>
+                        <div
+                            class="position-absolute top-50 start-100 translate-middle d-none d-sm-none d-md-none d-lg-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-caret-right-square bg-info" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                <path
+                                    d="M5.795 12.456A.5.5 0 0 1 5.5 12V4a.5.5 0 0 1 .832-.374l4.5 4a.5.5 0 0 1 0 .748l-4.5 4a.5.5 0 0 1-.537.082z" />
+                            </svg>
                         </div>
                     </div>
                 </div>
@@ -634,9 +691,9 @@
                         Frequently Asked Questions
                     </h1>
                     <p class=" fs-5 text-muted">
-                        It is a long established fact that a reader will be distracted by the readable
-                        <br>
-                        content of a page when looking at its layout.
+                        Frequently asked questions (FAQ) are questions and answers that often follow a certain topic
+                        <br>a
+                        collection of common questions that tend to be asked over and over again on topics.
                     </p>
                 </div>
                 <div class="container d-flex justify-content-center mb-5">
@@ -646,15 +703,19 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Accordion Item #1
+                                    What’s the Difference Between Flexbox and Grid?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion
-                                    body.</div>
+                                <div class="accordion-body">1.Flexbox is designed for one-dimensional layouts, and Grid
+                                    for two-dimensional layouts. <br>
+                                    2.The approach of CSS Grid is the layout first, while the Flexbox approach is
+                                    primarily the content. <br>
+                                    3.The Flexbox layout is best suited to application components and small-scale
+                                    layouts,
+                                    while the Grid layout is designed for larger-scale layouts that are not linear in
+                                    design.</div>
                             </div>
                         </div>
                         <div class="accordion-item m-1">
@@ -662,15 +723,17 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    Accordion Item #2
+                                    What's The Difference Between Bootstrap And Tailwind Css?
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion
-                                    body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">For creating responsive, mobile-first projects on the web,
+                                    Bootstrap is the most widely used HTML, CSS, and JavaScript framework. On the other
+                                    hand, the most well-liked utility-first CSS framework for quick UI creation is
+                                    Tailwind CSS. <br> While Tailwind CSS supporters frequently praise the framework's
+                                    customizability, Bootstrap is well renowned for its responsiveness. The best option
+                                    for you will depend on your priorities and project requirements. </div>
                             </div>
                         </div>
                         <div class="accordion-item m-1">
@@ -678,19 +741,25 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Accordion Item #3
+                                    What Is The CSS Box Model?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion
-                                    body. Nothing more exciting happening here in terms of content, but just filling up
-                                    the
-                                    space to make it look, at least at first glance, a bit more representative of how
-                                    this
-                                    would look in a real-world application.</div>
+                                <div class="accordion-body">There are majorly four elements in a box-model on which the
+                                    behavior of the box (element) relies. These are:
+                                    <br>
+                                    1.Content: This is the main content of the element. It can be text, links, images,
+                                    videos or any other content.
+                                    <br>
+                                    2.Padding: This is the gap between the content and the border (which is another
+                                    element) of the content.
+                                    <br>
+                                    3.Border: This can be visualized as a solid boundary of the content of the element.
+                                    <br>
+                                    4.Margin: This is the space that is maintained between various boxes on a particular
+                                    page i.e. the space between two borders.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item m-1">
@@ -698,19 +767,17 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
-                                    Accordion Item #4
+                                    What is an HTML Semantic Tag with example?
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion
-                                    body. Nothing more exciting happening here in terms of content, but just filling up
-                                    the
-                                    space to make it look, at least at first glance, a bit more representative of how
-                                    this
-                                    would look in a real-world application.</div>
+                                <div class="accordion-body">The core characteristic of a semantic element is that it
+                                    clearly communicated its meaning to both the developer and the browser. These
+                                    elements clearly define its content. <br> <img
+                                        src="https://tse4.mm.bing.net/th?id=OIP.OmoDSTYMBz9gF1_jH9BFsgHaFk&pid=Api&P=0"
+                                        alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -727,7 +794,7 @@
                                               Companies section starting point  
                                                                      ------------------------------------------------->
         <section>
-            <div class="container my-5 d-sm-none d-md-none d-lg-block">
+            <div class="container my-5 d-none d-sm-none d-sm-none d-md-none d-lg-block">
                 <h1 class="fs-1 fw-bold my-5 text-center">
                     Trusted by over 800+ companies
                 </h1>
@@ -766,7 +833,7 @@
                                               Footer section starting point  
                                                                      ------------------------------------------------->
     <footer>
-        <section>
+        <section class="footer_sec" id="Contact">
             <div class="bg-black text-center text-white py-5">
                 <div class=" my-5">
                     <h1>
@@ -811,6 +878,8 @@
     <!------------------------------------------
                                               Footer section ending point  
                                                                      ------------------------------------------------->
+
+    <!-- .js script link added  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
